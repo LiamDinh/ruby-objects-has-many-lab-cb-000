@@ -6,6 +6,6 @@ class Artist
   end
 
   def songs
-    @song = song
+    @song = []
   end
 end
