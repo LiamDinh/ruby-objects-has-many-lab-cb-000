@@ -4,10 +4,10 @@ class Song
 
   def initialize(song)
     @song = song
-    @@all << song 
+    @@all << song
   end
 
-  def all
+  def self.all
     @@all
   end
 
